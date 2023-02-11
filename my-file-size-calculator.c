@@ -6,7 +6,8 @@ int main(int argc, char **argv){
         unsigned long i=0;
         int c = 0;
         while( (c= getc(p)) != EOF){
-        if(c != '\n' && c != ' ' && c != '\t' ) i++;
+        // if(c != '\n' && c != ' ' && c != '\t' )
+         i++;
         }
         return i;
     }
